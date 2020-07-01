@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import SelectChart from "./SelectChart";
+
+import Tooltip from "./Tooltip";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SelectChart />
   </React.StrictMode>,
   document.getElementById('root')
 );

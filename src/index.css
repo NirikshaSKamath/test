@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fixed-size{
+  height: 400px;
+  width: 80%;
+}
+.MuiFormControl-root{
+  min-width: 200px !important;
+}
+
+.selectChart{
+  width: 35%;
+  margin: auto;
+  padding: 20px;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+
+.margin-top-40{
+  margin-top: 40px;
+}
+
+.renageSelectors{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.renageSelectors li{
+  font-size: 12px;
+  background-color: rgb(247, 247, 247);
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected{
+ background-color: rgb(230, 235, 245) !important;
+    
+}

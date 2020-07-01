@@ -1,0 +1,61 @@
+yAxis: [{ // Primary yAxis
+						labels: {
+							formatter: function() {
+								return this.value;// graduation
+							},
+							style: {
+								color: '#89A54E'
+							}
+						},
+						gridLineWidth: 0,
+						title: {
+							text: 'Poids (Kg)',
+							style: {
+								color: '#89A54E'
+							}
+						}
+						,opposite: true
+						
+					}, { //  yAxis PNN
+						max:8000,
+						min:0,
+						setExtremes(0,8000) ,
+						
+						gridLineWidth: 0,
+						title: {
+							text: 'PNN',
+							style: {
+								color: '#1936c5'
+							}
+						},
+						labels: {
+							formatter: function() {
+								return this.value; // echelles
+							},
+							style: {
+								color: '#1936c5'
+							}
+						}
+						// ,opposite: true
+					}, { // Tertiary yAxis
+						gridLineWidth: 0,
+						max:14,
+						min:4,
+setExtremes(4,14) ,
+						title: {
+							text: 'Hemoglobine',
+							style: {
+								color: '#AA4643'
+							}
+						},
+						labels: {
+							formatter: function() {
+								return this.value; // echelles
+							},
+							style: {
+								color: '#AA4643'
+							}
+						} 
+						
+					}
+                }]
