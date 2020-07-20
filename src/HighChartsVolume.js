@@ -114,8 +114,7 @@ export default function charts(props) {
                     y2: 1
                 },
                 stops: [
-                    // [0, Highcharts.getOptions().colors[0]],
-                    // [1, Highcharts.color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+
                     [0, "orange"],
                     [1, Highcharts.color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
                 ]

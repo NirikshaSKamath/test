@@ -38,87 +38,14 @@ function VolumeClipper(stockdata) {
 
 
 export default function charts(props) {
-    // var data = stockData;
 
-    // // split the data set into ohlc and volume
-    // var ohlc = [],
-    //     volume = [],
-    //     dataLength = data.length,
-    //     // set the allowed units for data grouping
-    //     groupingUnits = [
-
-    //         [
-    //             'week',
-    //             [1]
-    //         ], [
-    //             'month',
-    //             [1, 3, 6]
-    //         ], [
-    //             'year',
-    //             null
-    //         ]],
-
-    //     i = 0;
 
     const options = {
-        // rangeSelector: {
-        //     selected: 6,
-        //     allButtonsEnabled: true,
-        //     buttons: [{
-        //         type: 'day',
-        //         count: 1,
-        //         text: '1d',
-        //         dataGrouping: {
-        //             forced: true,
-        //             units: [['day', [1]]]
-        //         }
-        //     },
-        //     {
-        //         type: 'week',
-        //         count: 1,
-        //         text: '1W',
-        //         dataGrouping: {
-        //             forced: true,
-        //             units: [['week', [1]]]
-        //         }
-        //     },
-        //     {
-        //         type: 'month',
-        //         count: 1,
-        //         text: '1M',
-        //         dataGrouping: {
-        //             forced: true,
-        //             units: [['month', [1]]]
-        //         }
-        //     },
-        //     {
-        //         type: 'month',
-        //         count: 3,
-        //         text: '3M',
-        //         dataGrouping: {
-        //             forced: true,
-        //             units: [['month', [3]]]
-        //         }
-        //     },
-        //     {
-        //         type: 'ytd',
-        //         text: 'YTD'
-        //     },
-        //     {
-        //         type: 'all',
-        //         text: "All"
-        //     }]
 
-        // },
         rangeSelector: {
             enabled: false,
             inputEnabled: true
         },
-
-        // title: {
-        //     text: 'Historical'
-        // },
-
         yAxis: [{
             labels: {
                 align: 'right',
